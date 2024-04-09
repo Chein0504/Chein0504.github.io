@@ -10,18 +10,18 @@
 </ol>
 <h6 id="数组公式"><a href="#数组公式" class="headerlink" title="数组公式"></a>数组公式</h6><ol>
 <li>计算的一列选中 再按下 &#x3D; </li>
-<li>被计算的列一列一列进行选中<img src="C:\Users\Chein\AppData\Roaming\Typora\typora-user-images\image-20240409221816497.png" alt="image-20240409221816497"></li>
+<li>被计算的列一列一列进行选中<img src="/.com//Hexo\source_posts\Excel\image-20240409221816497.png" alt="image-20240409221816497"></li>
 <li>Ctrl+Shift+Enter</li>
 </ol>
 <p>绝对引用→F4键</p>
-<h6 id="逻辑函数"><a href="#逻辑函数" class="headerlink" title="逻辑函数"></a>逻辑函数</h6><p><img src="C:\Users\Chein\AppData\Roaming\Typora\typora-user-images\image-20240409222810143.png" alt="image-20240409222810143"></p>
+<h6 id="逻辑函数"><a href="#逻辑函数" class="headerlink" title="逻辑函数"></a>逻辑函数</h6><p><img src="/.com//Hexo\source_posts\Excel\image-20240409222810143.png" alt="image-20240409222810143"></p>
 <p>可以进行函数的嵌套</p>
 <h6 id="高级筛选"><a href="#高级筛选" class="headerlink" title="高级筛选"></a>高级筛选</h6><p>全选中将表复制到新sheet中，创建条件区域，进行高级筛选。</p>
-<p><img src="C:\Users\Chein\AppData\Roaming\Typora\typora-user-images\image-20240409223931441.png" alt="image-20240409223931441"></p>
-<h6 id="数据透视表"><a href="#数据透视表" class="headerlink" title="数据透视表"></a>数据透视表</h6><p><img src="C:\Users\Chein\AppData\Roaming\Typora\typora-user-images\image-20240409224309709.png" alt="image-20240409224309709"></p>
-<p><img src="C:\Users\Chein\AppData\Roaming\Typora\typora-user-images\image-20240409224333023.png" alt="image-20240409224333023"></p>
+<p><img src="/.com//Hexo\source_posts\Excel\image-20240409223931441.png" alt="image-20240409223931441"></p>
+<h6 id="数据透视表"><a href="#数据透视表" class="headerlink" title="数据透视表"></a>数据透视表</h6><p><img src="/.com//Hexo\source_posts\Excel\image-20240409224309709.png" alt="image-20240409224309709"></p>
+<p><img src="/.com//Hexo\source_posts\Excel\image-20240409224333023.png" alt="image-20240409224333023"></p>
 <p>按题目要求把字段拖入区域中</p>
-<p><img src="C:\Users\Chein\AppData\Roaming\Typora\typora-user-images\image-20240409224620468.png" alt="image-20240409224620468"></p>
+<p><img src="/.com//Hexo\source_posts\Excel\image-20240409224620468.png" alt="image-20240409224620468"></p>
 ]]></content>
       <tags>
         <tag>Excel</tag>
