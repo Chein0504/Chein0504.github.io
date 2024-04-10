@@ -45,24 +45,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo搭建/优化相关</title>
-    <url>/posts/20240409140427-12175.html</url>
-    <content><![CDATA[<p><a href="https://blog.csdn.net/as480133937/article/details/100138838/?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-4--blog-86661502.235%5Ev43%5Epc_blog_bottom_relevance_base1&spm=1001.2101.3001.4242.3&utm_relevant_index=7">Hexo-Next 主题博客个性化配置超详细，超全面(两万字)_hexo next 记录访问了ip-CSDN博客</a></p>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Start</title>
-    <url>/posts/20240407223330-42474.html</url>
-    <content><![CDATA[<p>初步完成！</p>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo显示图片方法</title>
     <url>/posts/20240409234234-21357.html</url>
     <content><![CDATA[<ol>
@@ -93,6 +75,15 @@
       </tags>
   </entry>
   <entry>
+    <title>Start</title>
+    <url>/posts/20240407223330-42474.html</url>
+    <content><![CDATA[<p>初步完成！</p>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>做了点小修改</title>
     <url>/posts/20220409110100-46009.html</url>
     <content><![CDATA[<blockquote>
@@ -109,6 +100,25 @@
 <p>把首页最新回复给砍掉了 看着简洁多了 然后加了个标签云<br><br>顶部图片做了个链接到每日60s 但是有个问题就是图片加载时间有点长 加载的很慢这东西 在电脑上还好手机上我等了一会就没耐心了这玩意没出来…</p>
 <hr>
 <p>是真的好累哎 今天基本一直坐在电脑前修改主题 腰酸背痛脖子疼齐全了</p>
+]]></content>
+      <tags>
+        <tag>Typecho</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客搭建基本完成</title>
+    <url>/posts/20220408215100-48551.html</url>
+    <content><![CDATA[<blockquote>
+<p>Typecho迁移Hexo</p>
+</blockquote>
+<p><font color="grey">从3.24购买服务器开始到今天4.8历时十五天的时间断断续续的折腾出了个还看得过去的个人博客来写东西。<br>用现成的系统主题来搭个博还是很简单的，只要不怕折腾就行（也没啥东西需要自己来修改的）</font></p>
+<h2 id="简单记录一下过程"><a href="#简单记录一下过程" class="headerlink" title="简单记录一下过程"></a>简单记录一下过程</h2><p><strong><foot style="background:#eee"> 1.购买服务器</foot></strong><br>在腾讯云购买的轻量应用型服务器</p>
+<p><strong><foot style="background:#eee">2.购买域名</foot></strong><br>等待信息模板实名认证通过后在阿里云购买的.cc域名</p>
+<p><strong><foot style="background:#eee">3.域名备案</foot></strong><br>一开始在阿里云备案 然后解析到服务器上发现提示未备案用不了 然后询问才知道现在得服务器在哪域名备案就要在哪 就又在腾讯云进行了接入备案</p>
+<p><strong><foot style="background:#eee">4.网站公安联网备案</foot></strong><br>还在进行 还没弄完</p>
+<p><strong><foot style="background:#eee">5.申请ssl证书</foot></strong><br>今天在腾讯云上申请了个免费ssl证书加上了</p>
+<p><strong><foot style="background:#eee">6.宝塔面板+Typecho搭建网站</foot></strong><br>没啥好说的网上一堆教程，多扒拉扒拉操作就行。<br>在用Typecho之前我还用了一下WordPress，但是我还是投入了Typecho的怀抱。WordPress的后台什么的我个人不太喜欢，而且不知道为啥刚开始弄的时候感觉WordPress好复杂没看懂(然后就懒得折腾后面等域名备案好了就用Typecho来搭建了）<br>刚好那天aj和我说Typecho隔了那么久时间更新了(那天是4.1)</p>
+<h3 id="对主题的修改"><a href="#对主题的修改" class="headerlink" title="对主题的修改"></a>对主题的修改</h3><p><img src="https://zymys-1308174541.cos.ap-shanghai.myqcloud.com/2022/04/09/2d4b7024e0c3f.png" alt="主题截图" title="主题截图"><br><font color="grey">对该主题进行了一些小小的修改</font><br><foot style="background:#eee">1.底部加了个网站运行时间显示</foot><br><foot style="background:#eee">2.修改了浏览器的标签页显示的网站标志图标</foot><br><foot style="background:#eee">3.头像加载不出来 将获取Gravatar头像地址改为国内镜像地址</foot><br><foot style="background:#eee">4.添加了评论微信通知插件和markdown编辑器插件（现在使用的这个插件它的图标都是□□ 加载不出来看的很难受）以及图片水印插件（图片水印插件还未使用过不知道效果什么样)</foot></p>
 ]]></content>
       <tags>
         <tag>Typecho</tag>
@@ -137,19 +147,16 @@
       </tags>
   </entry>
   <entry>
-    <title>博客搭建基本完成</title>
-    <url>/posts/20220408215100-48551.html</url>
+    <title>顶部图片链接跳转</title>
+    <url>/posts/20220410150200-58326.html</url>
     <content><![CDATA[<blockquote>
 <p>Typecho迁移Hexo</p>
 </blockquote>
-<p><font color="grey">从3.24购买服务器开始到今天4.8历时十五天的时间断断续续的折腾出了个还看得过去的个人博客来写东西。<br>用现成的系统主题来搭个博还是很简单的，只要不怕折腾就行（也没啥东西需要自己来修改的）</font></p>
-<h2 id="简单记录一下过程"><a href="#简单记录一下过程" class="headerlink" title="简单记录一下过程"></a>简单记录一下过程</h2><p><strong><foot style="background:#eee"> 1.购买服务器</foot></strong><br>在腾讯云购买的轻量应用型服务器</p>
-<p><strong><foot style="background:#eee">2.购买域名</foot></strong><br>等待信息模板实名认证通过后在阿里云购买的.cc域名</p>
-<p><strong><foot style="background:#eee">3.域名备案</foot></strong><br>一开始在阿里云备案 然后解析到服务器上发现提示未备案用不了 然后询问才知道现在得服务器在哪域名备案就要在哪 就又在腾讯云进行了接入备案</p>
-<p><strong><foot style="background:#eee">4.网站公安联网备案</foot></strong><br>还在进行 还没弄完</p>
-<p><strong><foot style="background:#eee">5.申请ssl证书</foot></strong><br>今天在腾讯云上申请了个免费ssl证书加上了</p>
-<p><strong><foot style="background:#eee">6.宝塔面板+Typecho搭建网站</foot></strong><br>没啥好说的网上一堆教程，多扒拉扒拉操作就行。<br>在用Typecho之前我还用了一下WordPress，但是我还是投入了Typecho的怀抱。WordPress的后台什么的我个人不太喜欢，而且不知道为啥刚开始弄的时候感觉WordPress好复杂没看懂(然后就懒得折腾后面等域名备案好了就用Typecho来搭建了）<br>刚好那天aj和我说Typecho隔了那么久时间更新了(那天是4.1)</p>
-<h3 id="对主题的修改"><a href="#对主题的修改" class="headerlink" title="对主题的修改"></a>对主题的修改</h3><p><img src="https://zymys-1308174541.cos.ap-shanghai.myqcloud.com/2022/04/09/2d4b7024e0c3f.png" alt="主题截图" title="主题截图"><br><font color="grey">对该主题进行了一些小小的修改</font><br><foot style="background:#eee">1.底部加了个网站运行时间显示</foot><br><foot style="background:#eee">2.修改了浏览器的标签页显示的网站标志图标</foot><br><foot style="background:#eee">3.头像加载不出来 将获取Gravatar头像地址改为国内镜像地址</foot><br><foot style="background:#eee">4.添加了评论微信通知插件和markdown编辑器插件（现在使用的这个插件它的图标都是□□ 加载不出来看的很难受）以及图片水印插件（图片水印插件还未使用过不知道效果什么样)</foot></p>
+<p><font color="grey">顶部的图片被我修改成了可以点击跳转到每日60s（由于未学习过php 所以源码其实我是看不太明白的）<br>直接在源码上加了a标签进行跳转（在header.php里修改）<br>导致新建独立页面出现了问题</font><img src="https://zymys-1308174541.cos.ap-shanghai.myqcloud.com/2022/04/10/cba1d712a2e0e.png" alt="新建独立页面问题" title="新建独立页面问题"><br>这bug真没法解决 这新建独立页面的php里就算删掉header.php也会存在这个问题 那一块都能进行点击然后跳转到每日60s（除非我把顶部图片每日60s链接直接去掉换回单纯的图片显示）<br><br><font color="grey">哎 我这强迫症 我还是不能忍受那个bug存在 所以还是换回图片吧&#x3D; &#x3D;</font></p>
+<hr>
+<p><font color="grey">昨天看的时候也发现默认前面多了个小点可以点击跳转到每日60s（这个是因为继承了父级的css样式导致）</font><br><strong>解决方法：</strong>取消从父级元素继承下来的CSS样式 <code>all:initial;</code></p>
+<hr>
+<p><font color="grey">jQuery不熟悉 php不会</font> 学习之路任重道远</p>
 ]]></content>
       <tags>
         <tag>Typecho</tag>
@@ -173,22 +180,6 @@
 <p><strong>2.新建变量</strong></p>
 <p><strong>环境变量</strong>里添加京东账号的cookie<font color="grey">（怎么获取cookie网上一搜就有 我就不写了 好吧其实是懒得写了 可以参考<a href="https://www.zymys.cn/index.php/archives/128/" title="获取cookie方法">获取cookie方法</a>）</font><br><strong>名称一定要填</strong><code>JD_COOKIE</code><br><strong>值：</strong>填写cookie里的<code>pt_key</code>和<code>pt_pin</code><br><font color="grey">两个后面加上分号** ; **</font><br><img src="https://www.chein.cc/usr/uploads/2022/04/1022752254.png" alt="新建环境变量"><br>添加完毕后 第一次先手动运行脚本 如图<br><img src="https://www.chein.cc/usr/uploads/2022/04/2656341579.png" alt="运行脚本"></p>
 <p><font color="grey">然后就可以登录京东看看京豆什么的 已经自动在刷（<del>脚本刷什么内容可以自己看脚本文件</del> 活动都先自己用手机先点击进入一遍 例：京喜农场活动 自己可以点进去选择兑换什么然后后台会自动浇灌 等一段时间后就能兑换领取）</font></p>
-]]></content>
-      <tags>
-        <tag>Typecho</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>顶部图片链接跳转</title>
-    <url>/posts/20220410150200-58326.html</url>
-    <content><![CDATA[<blockquote>
-<p>Typecho迁移Hexo</p>
-</blockquote>
-<p><font color="grey">顶部的图片被我修改成了可以点击跳转到每日60s（由于未学习过php 所以源码其实我是看不太明白的）<br>直接在源码上加了a标签进行跳转（在header.php里修改）<br>导致新建独立页面出现了问题</font><img src="https://zymys-1308174541.cos.ap-shanghai.myqcloud.com/2022/04/10/cba1d712a2e0e.png" alt="新建独立页面问题" title="新建独立页面问题"><br>这bug真没法解决 这新建独立页面的php里就算删掉header.php也会存在这个问题 那一块都能进行点击然后跳转到每日60s（除非我把顶部图片每日60s链接直接去掉换回单纯的图片显示）<br><br><font color="grey">哎 我这强迫症 我还是不能忍受那个bug存在 所以还是换回图片吧&#x3D; &#x3D;</font></p>
-<hr>
-<p><font color="grey">昨天看的时候也发现默认前面多了个小点可以点击跳转到每日60s（这个是因为继承了父级的css样式导致）</font><br><strong>解决方法：</strong>取消从父级元素继承下来的CSS样式 <code>all:initial;</code></p>
-<hr>
-<p><font color="grey">jQuery不熟悉 php不会</font> 学习之路任重道远</p>
 ]]></content>
       <tags>
         <tag>Typecho</tag>
