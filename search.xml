@@ -5,18 +5,18 @@
     <url>/posts/20240409234234-21357.html</url>
     <content><![CDATA[<ol>
 <li><p>使用 hexo-asset-image插件</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>将Typora的偏好设置如下<img src="/posts/20240409234234-21357/image-20240410091415275.png" alt="image-20240410091415275" style="zoom:80%;"></p>
 </li>
 <li><p>根目录下的_config.yml进行修改</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">post_asset_folder: <span class="literal">true</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>由于使用了Hexo-abbrlink，因此还要进行修改。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">permalink: posts/:abbrlink/  #这是原有的</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">permalink: posts/:abbrlink/  <span class="comment">#这是原有的</span></span><br></pre></td></tr></table></figure>
 
 <p>修改为</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">permalink: posts/:year:month:day:hour:minute:second-:abbrlink.html</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">permalink: posts/:year:month:day:hour:minute:second-:abbrlink.html</span><br></pre></td></tr></table></figure>
 
 <blockquote>
 <p>参考<a href="https://blog.csdn.net/lessCoder/article/details/127858588">Hexo 中permalink使用 Hexo-abbrlink生成唯一永久文章链接及小优化-CSDN博客</a>进行修改</p>
