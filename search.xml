@@ -1,35 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hexo显示图片方法</title>
+    <url>/posts/20240409234234-21357.html</url>
+    <content><![CDATA[<ol>
+<li><p>使用 hexo-asset-image插件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>将Typora的偏好设置如下<img src="/posts/20240409234234-21357/image-20240410091415275.png" alt="image-20240410091415275" style="zoom:80%;"></p>
+</li>
+<li><p>根目录下的_config.yml进行修改</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>重新使用 <code>hexo g</code> 进行生成，本地生成的图片链接就会正常，<code>hexo d</code>部署后也能够在网页上正常访问。</p>
+</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Excel</title>
-    <url>/posts/3086/</url>
-    <content><![CDATA[<h6 id="数据选择"><a href="#数据选择" class="headerlink" title="数据选择"></a>数据选择</h6><ol>
+    <url>/posts/20240409220215-3086.html</url>
+    <content><![CDATA[<h3 id="数据选择"><a href="#数据选择" class="headerlink" title="数据选择"></a>数据选择</h3><ol>
 <li>直接向下选</li>
 <li>第一个+Shift+最后一个</li>
 <li>Ctrl+Shift+↓</li>
 </ol>
-<h6 id="数组公式"><a href="#数组公式" class="headerlink" title="数组公式"></a>数组公式</h6><ol>
-<li>计算的一列选中 再按下 &#x3D; </li>
-<li>被计算的列一列一列进行选中<img src="/.com//Hexo\source_posts\Excel\image-20240409221816497.png" alt="image-20240409221816497"></li>
-<li>Ctrl+Shift+Enter</li>
+<h3 id="数组公式"><a href="#数组公式" class="headerlink" title="数组公式"></a>数组公式</h3><ol>
+<li><p>计算的一列选中 再按下 &#x3D; </p>
+</li>
+<li><p>被计算的列一列一列进行选中</p>
+<img src="/posts/20240409220215-3086/image-20240409221816497.png" alt="image-20240409221816497" style="zoom:50%;">
+</li>
+<li><p>Ctrl+Shift+Enter</p>
+</li>
 </ol>
 <p>绝对引用→F4键</p>
-<h6 id="逻辑函数"><a href="#逻辑函数" class="headerlink" title="逻辑函数"></a>逻辑函数</h6><p><img src="/.com//Hexo\source_posts\Excel\image-20240409222810143.png" alt="image-20240409222810143"></p>
+<h3 id="逻辑函数"><a href="#逻辑函数" class="headerlink" title="逻辑函数"></a>逻辑函数</h3><img src="/posts/20240409220215-3086/image-20240409222810143.png" alt="image-20240409222810143" style="zoom:50%;">
+
 <p>可以进行函数的嵌套</p>
-<h6 id="高级筛选"><a href="#高级筛选" class="headerlink" title="高级筛选"></a>高级筛选</h6><p>全选中将表复制到新sheet中，创建条件区域，进行高级筛选。</p>
-<p><img src="/.com//Hexo\source_posts\Excel\image-20240409223931441.png" alt="image-20240409223931441"></p>
-<h6 id="数据透视表"><a href="#数据透视表" class="headerlink" title="数据透视表"></a>数据透视表</h6><p><img src="/.com//Hexo\source_posts\Excel\image-20240409224309709.png" alt="image-20240409224309709"></p>
-<p><img src="/.com//Hexo\source_posts\Excel\image-20240409224333023.png" alt="image-20240409224333023"></p>
+<h3 id="高级筛选"><a href="#高级筛选" class="headerlink" title="高级筛选"></a>高级筛选</h3><p>全选中将表复制到新sheet中，创建条件区域，进行高级筛选。</p>
+<img src="/posts/20240409220215-3086/image-20240409223931441.png" alt="image-20240409223931441" style="zoom:50%;">
+
+<h3 id="数据透视表"><a href="#数据透视表" class="headerlink" title="数据透视表"></a>数据透视表</h3><img src="/posts/20240409220215-3086/image-20240409224309709.png" alt="image-20240409224309709" style="zoom:50%;">
+
+<img src="/posts/20240409220215-3086/image-20240409224333023.png" alt="image-20240409224333023" style="zoom:50%;">
+
 <p>按题目要求把字段拖入区域中</p>
-<p><img src="/.com//Hexo\source_posts\Excel\image-20240409224620468.png" alt="image-20240409224620468"></p>
-]]></content>
+<img src="/posts/20240409220215-3086/image-20240409224620468.png" alt="image-20240409224620468" style="zoom:50%;">]]></content>
       <tags>
         <tag>Excel</tag>
       </tags>
   </entry>
   <entry>
     <title>Hexo优化相关</title>
-    <url>/posts/12175/</url>
+    <url>/posts/20240409140427-12175.html</url>
     <content><![CDATA[<p><a href="https://blog.csdn.net/as480133937/article/details/100138838/?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-4--blog-86661502.235%5Ev43%5Epc_blog_bottom_relevance_base1&spm=1001.2101.3001.4242.3&utm_relevant_index=7">Hexo-Next 主题博客个性化配置超详细，超全面(两万字)_hexo next 记录访问了ip-CSDN博客</a></p>
 ]]></content>
       <tags>
@@ -38,7 +65,7 @@
   </entry>
   <entry>
     <title>Start</title>
-    <url>/posts/42474/</url>
+    <url>/posts/20240407223330-42474.html</url>
     <content><![CDATA[<p>初步完成！</p>
 ]]></content>
       <tags>
