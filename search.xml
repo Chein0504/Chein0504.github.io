@@ -1,21 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Start</title>
-    <url>/posts/20240407223330-42474.html</url>
-    <content><![CDATA[<p>初步完成！</p>
+    <title>test</title>
+    <url>/posts/20240410194200-63535.html</url>
+    <content><![CDATA[<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">HelloWorld</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello World&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src="/posts/20240410194200-63535/image-20240410194623017.png" alt="image-20240410194623017"></p>
 ]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
   </entry>
   <entry>
-    <title>Hexo搭建/优化相关</title>
-    <url>/posts/20240409140427-12175.html</url>
-    <content><![CDATA[<p>[使用 Hexo+GitHub 搭建个人免费博客教程（小白向） - 知乎 (zhihu.com)](<a href="https://zhuanlan.zhihu.com/p/60578464#:~:text=%E4%BD%BF%E7%94%A8">https://zhuanlan.zhihu.com/p/60578464#:~:text=使用</a> Hexo%2BGitHub 搭建个人免费博客教程（小白向） 1 1. 准备 %23 注意事项,… 7 7. 开始使用 %23 7.1 发布文章 )</p>
-<p><a href="https://blog.csdn.net/as480133937/article/details/100138838/?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-4--blog-86661502.235%5Ev43%5Epc_blog_bottom_relevance_base1&spm=1001.2101.3001.4242.3&utm_relevant_index=7">Hexo-Next 主题博客个性化配置超详细，超全面(两万字)_hexo next 记录访问了ip-CSDN博客</a></p>
-<p><a href="https://zhuanlan.zhihu.com/p/500171014">NexT 主题行内代码背景颜色设置 - 知乎 (zhihu.com)</a></p>
-<p><a href="https://blog.csdn.net/CodeJoker_7/article/details/123235303">Hexo添加复制代码块功能_hexo生成的文章代码段添加复制按钮-CSDN博客</a></p>
+    <title>Hexo显示图片方法</title>
+    <url>/posts/20240409234234-21357.html</url>
+    <content><![CDATA[<ol>
+<li><p>使用 hexo-asset-image插件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>将Typora的偏好设置如下<img src="/posts/20240409234234-21357/image-20240410091415275.png" alt="image-20240410091415275" style="zoom:80%;"></p>
+</li>
+<li><p>根目录下的_config.yml进行修改</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">post_asset_folder: <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>由于使用了Hexo-abbrlink，因此还要进行修改。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">permalink: posts/:abbrlink/  <span class="comment">#这是原有的</span></span><br></pre></td></tr></table></figure>
+
+<p>修改为</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">permalink: posts/:year:month:day:hour:minute:second-:abbrlink.html</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>参考<a href="https://blog.csdn.net/lessCoder/article/details/127858588">Hexo 中permalink使用 Hexo-abbrlink生成唯一永久文章链接及小优化-CSDN博客</a>进行修改</p>
+</blockquote>
+</li>
+<li><p>重新使用 <code>hexo g</code> 进行生成，本地生成的图片链接就会正常，<code>hexo d</code>部署后也能够在网页上正常访问。</p>
+</li>
+</ol>
 ]]></content>
       <tags>
         <tag>hexo</tag>
@@ -56,41 +73,85 @@
       </tags>
   </entry>
   <entry>
-    <title>test</title>
-    <url>/posts/20240410194200-63535.html</url>
-    <content><![CDATA[<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">HelloWorld</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello World&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img src="/posts/20240410194200-63535/image-20240410194623017.png" alt="image-20240410194623017"></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Hexo显示图片方法</title>
-    <url>/posts/20240409234234-21357.html</url>
-    <content><![CDATA[<ol>
-<li><p>使用 hexo-asset-image插件</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>将Typora的偏好设置如下<img src="/posts/20240409234234-21357/image-20240410091415275.png" alt="image-20240410091415275" style="zoom:80%;"></p>
-</li>
-<li><p>根目录下的_config.yml进行修改</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">post_asset_folder: <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>由于使用了Hexo-abbrlink，因此还要进行修改。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">permalink: posts/:abbrlink/  <span class="comment">#这是原有的</span></span><br></pre></td></tr></table></figure>
-
-<p>修改为</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">permalink: posts/:year:month:day:hour:minute:second-:abbrlink.html</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>参考<a href="https://blog.csdn.net/lessCoder/article/details/127858588">Hexo 中permalink使用 Hexo-abbrlink生成唯一永久文章链接及小优化-CSDN博客</a>进行修改</p>
-</blockquote>
-</li>
-<li><p>重新使用 <code>hexo g</code> 进行生成，本地生成的图片链接就会正常，<code>hexo d</code>部署后也能够在网页上正常访问。</p>
-</li>
-</ol>
+    <title>Hexo搭建/优化相关</title>
+    <url>/posts/20240409140427-12175.html</url>
+    <content><![CDATA[<p>[使用 Hexo+GitHub 搭建个人免费博客教程（小白向） - 知乎 (zhihu.com)](<a href="https://zhuanlan.zhihu.com/p/60578464#:~:text=%E4%BD%BF%E7%94%A8">https://zhuanlan.zhihu.com/p/60578464#:~:text=使用</a> Hexo%2BGitHub 搭建个人免费博客教程（小白向） 1 1. 准备 %23 注意事项,… 7 7. 开始使用 %23 7.1 发布文章 )</p>
+<p><a href="https://blog.csdn.net/as480133937/article/details/100138838/?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-4--blog-86661502.235%5Ev43%5Epc_blog_bottom_relevance_base1&spm=1001.2101.3001.4242.3&utm_relevant_index=7">Hexo-Next 主题博客个性化配置超详细，超全面(两万字)_hexo next 记录访问了ip-CSDN博客</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/500171014">NexT 主题行内代码背景颜色设置 - 知乎 (zhihu.com)</a></p>
+<p><a href="https://blog.csdn.net/CodeJoker_7/article/details/123235303">Hexo添加复制代码块功能_hexo生成的文章代码段添加复制按钮-CSDN博客</a></p>
 ]]></content>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Start</title>
+    <url>/posts/20240407223330-42474.html</url>
+    <content><![CDATA[<p>初步完成！</p>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>青龙面板安装、拉取JD脚本</title>
+    <url>/posts/20220415205400-6693.html</url>
+    <content><![CDATA[<blockquote>
+<p>Typecho迁移Hexo</p>
+</blockquote>
+<p>简单的记录一下今天挂JD脚本的操作过程</p>
+<hr>
+<p><font color="grey">通过挂脚本让脚本自行完成京东活动里需要签到、浇灌一系列操作（搭建在云服务器上 已经安装Docker镜像）</font></p>
+<h3 id="青龙面板安装"><a href="#青龙面板安装" class="headerlink" title="青龙面板安装"></a>青龙面板安装</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker run -dit \</span><br><span class="line">  --name QL \</span><br><span class="line">  --hostname QL \</span><br><span class="line">  --restart always \</span><br><span class="line">  -p 5700:5700 \</span><br><span class="line">  -v $PWD/QL/config:/ql/config \</span><br><span class="line">  -v $PWD/QL/log:/ql/log \</span><br><span class="line">  -v $PWD/QL/db:/ql/db \</span><br><span class="line">  -v $PWD/QL/scripts:/ql/scripts \</span><br><span class="line">  -v $PWD/QL/jbot:/ql/jbot \</span><br><span class="line">  whyour/qinglong:latest</span><br></pre></td></tr></table></figure>
+<p>端口号5700可以修改成别的 建议修改</p>
+<p><img src="https://www.chein.cc/usr/uploads/2022/04/1508520666.png" alt="青龙面板安装成功"></p>
+<p><strong>登录青龙面板</strong>：在浏览器里输入你的服务器ip地址加上设置的端口号 例192.0.0.0:5700</p>
+<p><strong>1.新建任务</strong> </p>
+<p>登录后在定时任务里 <strong>新建任务</strong> 确定完成<br><img src="https://www.chein.cc/usr/uploads/2022/04/883195322.png" alt="新建任务"><br><font color="grey">拉库命令可以去网上找 能不能用我就不知道了 我目前拉取的这个是可以的</font><br><code> &quot;jd_|jx_|getJDCookie&quot; &quot;backUp|icon&quot; &quot;^jd[^_]|USER|sendNotify|sign_graphics_validate|JDJR&quot;&quot;main&quot;</code><br>可以参考这篇文里的库地址–&gt;<a href="https://blog.csdn.net/u012134073/article/details/120220361" title="青龙面板拉取常用脚本(JD签到) 目前在维护的脚本更新">青龙面板拉取常用脚本(JD签到) 目前在维护的脚本更新</a></p>
+<p><strong>2.新建变量</strong></p>
+<p><strong>环境变量</strong>里添加京东账号的cookie<font color="grey">（怎么获取cookie网上一搜就有 我就不写了 好吧其实是懒得写了 可以参考<a href="https://www.zymys.cn/index.php/archives/128/" title="获取cookie方法">获取cookie方法</a>）</font><br><strong>名称一定要填</strong><code>JD_COOKIE</code><br><strong>值：</strong>填写cookie里的<code>pt_key</code>和<code>pt_pin</code><br><font color="grey">两个后面加上分号** ; **</font><br><img src="https://www.chein.cc/usr/uploads/2022/04/1022752254.png" alt="新建环境变量"><br>添加完毕后 第一次先手动运行脚本 如图<br><img src="https://www.chein.cc/usr/uploads/2022/04/2656341579.png" alt="运行脚本"></p>
+<p><font color="grey">然后就可以登录京东看看京豆什么的 已经自动在刷（<del>脚本刷什么内容可以自己看脚本文件</del> 活动都先自己用手机先点击进入一遍 例：京喜农场活动 自己可以点进去选择兑换什么然后后台会自动浇灌 等一段时间后就能兑换领取）</font></p>
+]]></content>
+      <tags>
+        <tag>Typecho</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>对主题的修改</title>
+    <url>/posts/20220411003100-13311.html</url>
+    <content><![CDATA[<blockquote>
+<p>Typecho迁移Hexo</p>
+</blockquote>
+<p><strong>总结一下对主题都进行了什么修改操作</strong></p>
+<p>1.删除了首页上面网站title的同步php代码 直接自己加入在a标签里加了名字</p>
+<p>2.首页上面的头像 自己制作了一下透明头像(这样是为了暗黑模式打开的时候不显示成一个□出现 我确实不太喜欢看那个框 整个感让我觉得变扭)</p>
+<p>3.文章里增加了统计文章字数，自己写了那段最后更新时间那里的css插入里面(加入了同步最后更新时间功能)，底部加了段版权声明文字。文章发表时间本来是只有显示年月日改成显示到秒。</p>
+<p>4.砍掉了首页上侧边栏的最近回复，增加了标签云。</p>
+<p>5.底部加上了统计网站运行天数，访客总量和文章总数。</p>
+<p><em>以上都是直接修改了源码</em></p>
+<p>6.增加了文章置顶插件</p>
+<p>7.后台markdown编辑器插件</p>
+<p>8.增加了评论微信提醒插件</p>
+<p>9.图片水印插件(还没用过 效果未知)</p>
+]]></content>
+      <tags>
+        <tag>Typecho</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>顶部图片链接跳转</title>
+    <url>/posts/20220410150200-58326.html</url>
+    <content><![CDATA[<blockquote>
+<p>Typecho迁移Hexo</p>
+</blockquote>
+<p><font color="grey">顶部的图片被我修改成了可以点击跳转到每日60s（由于未学习过php 所以源码其实我是看不太明白的）<br>直接在源码上加了a标签进行跳转（在header.php里修改）<br>导致新建独立页面出现了问题</font><img src="https://zymys-1308174541.cos.ap-shanghai.myqcloud.com/2022/04/10/cba1d712a2e0e.png" alt="新建独立页面问题" title="新建独立页面问题"><br>这bug真没法解决 这新建独立页面的php里就算删掉header.php也会存在这个问题 那一块都能进行点击然后跳转到每日60s（除非我把顶部图片每日60s链接直接去掉换回单纯的图片显示）<br><br><font color="grey">哎 我这强迫症 我还是不能忍受那个bug存在 所以还是换回图片吧&#x3D; &#x3D;</font></p>
+<hr>
+<p><font color="grey">昨天看的时候也发现默认前面多了个小点可以点击跳转到每日60s（这个是因为继承了父级的css样式导致）</font><br><strong>解决方法：</strong>取消从父级元素继承下来的CSS样式 <code>all:initial;</code></p>
+<hr>
+<p><font color="grey">jQuery不熟悉 php不会</font> 学习之路任重道远</p>
+]]></content>
+      <tags>
+        <tag>Typecho</tag>
       </tags>
   </entry>
   <entry>
@@ -129,67 +190,6 @@
 <p><strong><foot style="background:#eee">5.申请ssl证书</foot></strong><br>今天在腾讯云上申请了个免费ssl证书加上了</p>
 <p><strong><foot style="background:#eee">6.宝塔面板+Typecho搭建网站</foot></strong><br>没啥好说的网上一堆教程，多扒拉扒拉操作就行。<br>在用Typecho之前我还用了一下WordPress，但是我还是投入了Typecho的怀抱。WordPress的后台什么的我个人不太喜欢，而且不知道为啥刚开始弄的时候感觉WordPress好复杂没看懂(然后就懒得折腾后面等域名备案好了就用Typecho来搭建了）<br>刚好那天aj和我说Typecho隔了那么久时间更新了(那天是4.1)</p>
 <h3 id="对主题的修改"><a href="#对主题的修改" class="headerlink" title="对主题的修改"></a>对主题的修改</h3><p><img src="https://zymys-1308174541.cos.ap-shanghai.myqcloud.com/2022/04/09/2d4b7024e0c3f.png" alt="主题截图" title="主题截图"><br><font color="grey">对该主题进行了一些小小的修改</font><br><foot style="background:#eee">1.底部加了个网站运行时间显示</foot><br><foot style="background:#eee">2.修改了浏览器的标签页显示的网站标志图标</foot><br><foot style="background:#eee">3.头像加载不出来 将获取Gravatar头像地址改为国内镜像地址</foot><br><foot style="background:#eee">4.添加了评论微信通知插件和markdown编辑器插件（现在使用的这个插件它的图标都是□□ 加载不出来看的很难受）以及图片水印插件（图片水印插件还未使用过不知道效果什么样)</foot></p>
-]]></content>
-      <tags>
-        <tag>Typecho</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>对主题的修改</title>
-    <url>/posts/20220411003100-13311.html</url>
-    <content><![CDATA[<blockquote>
-<p>Typecho迁移Hexo</p>
-</blockquote>
-<p><strong>总结一下对主题都进行了什么修改操作</strong></p>
-<p>1.删除了首页上面网站title的同步php代码 直接自己加入在a标签里加了名字</p>
-<p>2.首页上面的头像 自己制作了一下透明头像(这样是为了暗黑模式打开的时候不显示成一个□出现 我确实不太喜欢看那个框 整个感让我觉得变扭)</p>
-<p>3.文章里增加了统计文章字数，自己写了那段最后更新时间那里的css插入里面(加入了同步最后更新时间功能)，底部加了段版权声明文字。文章发表时间本来是只有显示年月日改成显示到秒。</p>
-<p>4.砍掉了首页上侧边栏的最近回复，增加了标签云。</p>
-<p>5.底部加上了统计网站运行天数，访客总量和文章总数。</p>
-<p><em>以上都是直接修改了源码</em></p>
-<p>6.增加了文章置顶插件</p>
-<p>7.后台markdown编辑器插件</p>
-<p>8.增加了评论微信提醒插件</p>
-<p>9.图片水印插件(还没用过 效果未知)</p>
-]]></content>
-      <tags>
-        <tag>Typecho</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>青龙面板安装、拉取JD脚本</title>
-    <url>/posts/20220415205400-6693.html</url>
-    <content><![CDATA[<blockquote>
-<p>Typecho迁移Hexo</p>
-</blockquote>
-<p>简单的记录一下今天挂JD脚本的操作过程</p>
-<hr>
-<p><font color="grey">通过挂脚本让脚本自行完成京东活动里需要签到、浇灌一系列操作（搭建在云服务器上 已经安装Docker镜像）</font></p>
-<h3 id="青龙面板安装"><a href="#青龙面板安装" class="headerlink" title="青龙面板安装"></a>青龙面板安装</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker run -dit \</span><br><span class="line">  --name QL \</span><br><span class="line">  --hostname QL \</span><br><span class="line">  --restart always \</span><br><span class="line">  -p 5700:5700 \</span><br><span class="line">  -v $PWD/QL/config:/ql/config \</span><br><span class="line">  -v $PWD/QL/log:/ql/log \</span><br><span class="line">  -v $PWD/QL/db:/ql/db \</span><br><span class="line">  -v $PWD/QL/scripts:/ql/scripts \</span><br><span class="line">  -v $PWD/QL/jbot:/ql/jbot \</span><br><span class="line">  whyour/qinglong:latest</span><br></pre></td></tr></table></figure>
-<p>端口号5700可以修改成别的 建议修改</p>
-<p><img src="https://www.chein.cc/usr/uploads/2022/04/1508520666.png" alt="青龙面板安装成功"></p>
-<p><strong>登录青龙面板</strong>：在浏览器里输入你的服务器ip地址加上设置的端口号 例192.0.0.0:5700</p>
-<p><strong>1.新建任务</strong> </p>
-<p>登录后在定时任务里 <strong>新建任务</strong> 确定完成<br><img src="https://www.chein.cc/usr/uploads/2022/04/883195322.png" alt="新建任务"><br><font color="grey">拉库命令可以去网上找 能不能用我就不知道了 我目前拉取的这个是可以的</font><br><code> &quot;jd_|jx_|getJDCookie&quot; &quot;backUp|icon&quot; &quot;^jd[^_]|USER|sendNotify|sign_graphics_validate|JDJR&quot;&quot;main&quot;</code><br>可以参考这篇文里的库地址–&gt;<a href="https://blog.csdn.net/u012134073/article/details/120220361" title="青龙面板拉取常用脚本(JD签到) 目前在维护的脚本更新">青龙面板拉取常用脚本(JD签到) 目前在维护的脚本更新</a></p>
-<p><strong>2.新建变量</strong></p>
-<p><strong>环境变量</strong>里添加京东账号的cookie<font color="grey">（怎么获取cookie网上一搜就有 我就不写了 好吧其实是懒得写了 可以参考<a href="https://www.zymys.cn/index.php/archives/128/" title="获取cookie方法">获取cookie方法</a>）</font><br><strong>名称一定要填</strong><code>JD_COOKIE</code><br><strong>值：</strong>填写cookie里的<code>pt_key</code>和<code>pt_pin</code><br><font color="grey">两个后面加上分号** ; **</font><br><img src="https://www.chein.cc/usr/uploads/2022/04/1022752254.png" alt="新建环境变量"><br>添加完毕后 第一次先手动运行脚本 如图<br><img src="https://www.chein.cc/usr/uploads/2022/04/2656341579.png" alt="运行脚本"></p>
-<p><font color="grey">然后就可以登录京东看看京豆什么的 已经自动在刷（<del>脚本刷什么内容可以自己看脚本文件</del> 活动都先自己用手机先点击进入一遍 例：京喜农场活动 自己可以点进去选择兑换什么然后后台会自动浇灌 等一段时间后就能兑换领取）</font></p>
-]]></content>
-      <tags>
-        <tag>Typecho</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>顶部图片链接跳转</title>
-    <url>/posts/20220410150200-58326.html</url>
-    <content><![CDATA[<blockquote>
-<p>Typecho迁移Hexo</p>
-</blockquote>
-<p><font color="grey">顶部的图片被我修改成了可以点击跳转到每日60s（由于未学习过php 所以源码其实我是看不太明白的）<br>直接在源码上加了a标签进行跳转（在header.php里修改）<br>导致新建独立页面出现了问题</font><img src="https://zymys-1308174541.cos.ap-shanghai.myqcloud.com/2022/04/10/cba1d712a2e0e.png" alt="新建独立页面问题" title="新建独立页面问题"><br>这bug真没法解决 这新建独立页面的php里就算删掉header.php也会存在这个问题 那一块都能进行点击然后跳转到每日60s（除非我把顶部图片每日60s链接直接去掉换回单纯的图片显示）<br><br><font color="grey">哎 我这强迫症 我还是不能忍受那个bug存在 所以还是换回图片吧&#x3D; &#x3D;</font></p>
-<hr>
-<p><font color="grey">昨天看的时候也发现默认前面多了个小点可以点击跳转到每日60s（这个是因为继承了父级的css样式导致）</font><br><strong>解决方法：</strong>取消从父级元素继承下来的CSS样式 <code>all:initial;</code></p>
-<hr>
-<p><font color="grey">jQuery不熟悉 php不会</font> 学习之路任重道远</p>
 ]]></content>
       <tags>
         <tag>Typecho</tag>
