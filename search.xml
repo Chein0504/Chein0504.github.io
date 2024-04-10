@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>test</title>
-    <url>/posts/20240410194200-63535.html</url>
-    <content><![CDATA[<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">HelloWorld</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello World&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<p><img src="/posts/20240410194200-63535/image-20240410214706940.png" alt="image-20240410214706940"></p>
+    <title>结束修改next主题</title>
+    <url>/posts/20240410220121-51027.html</url>
+    <content><![CDATA[<p>把next从5升级到了8 然后太难弄了 一堆要重新弄（属实是折腾不搞了）</p>
+<p>把版本换回来好像原来的又出了一点问题 真服了（字体改不成中文去了…)</p>
+<p>随便测试一下图片能不能正常显示（别又被我折腾没了）</p>
+<p><img src="/posts/20240410220121-51027/image-20240410220340359.png" alt="image-20240410220340359"></p>
 ]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hexo显示图片方法</title>
