@@ -5,7 +5,9 @@
     <url>/posts/20240410194200-63535.html</url>
     <content><![CDATA[<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">HelloWorld</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello World&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p><img src="/posts/20240410194200-63535/image-20240410194623017.png" alt="image-20240410194623017"></p>
+
+
+<p><img src="/posts/20240410194200-63535/image-20240410214706940.png" alt="image-20240410214706940"></p>
 ]]></content>
   </entry>
   <entry>
@@ -79,6 +81,7 @@
 <p><a href="https://blog.csdn.net/as480133937/article/details/100138838/?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-4--blog-86661502.235%5Ev43%5Epc_blog_bottom_relevance_base1&spm=1001.2101.3001.4242.3&utm_relevant_index=7">Hexo-Next 主题博客个性化配置超详细，超全面(两万字)_hexo next 记录访问了ip-CSDN博客</a></p>
 <p><a href="https://zhuanlan.zhihu.com/p/500171014">NexT 主题行内代码背景颜色设置 - 知乎 (zhihu.com)</a></p>
 <p><a href="https://blog.csdn.net/CodeJoker_7/article/details/123235303">Hexo添加复制代码块功能_hexo生成的文章代码段添加复制按钮-CSDN博客</a></p>
+<p><a href="https://chenzhonzhou.github.io/2019/12/17/hexo-shi-yong-gulp-cha-jian-ya-suo-ye-mian-jing-tai-zi-yuan/">Hexo-使用gulp插件压缩页面静态资源 | 凡间的精灵 (chenzhonzhou.github.io)</a></p>
 ]]></content>
       <tags>
         <tag>hexo</tag>
