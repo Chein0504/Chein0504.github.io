@@ -45,15 +45,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Start</title>
-    <url>/posts/20240407223330-42474.html</url>
-    <content><![CDATA[<p>初步完成！</p>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo搭建/优化相关</title>
     <url>/posts/20240409140427-12175.html</url>
     <content><![CDATA[<p><a href="https://blog.csdn.net/as480133937/article/details/100138838/?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-4--blog-86661502.235%5Ev43%5Epc_blog_bottom_relevance_base1&spm=1001.2101.3001.4242.3&utm_relevant_index=7">Hexo-Next 主题博客个性化配置超详细，超全面(两万字)_hexo next 记录访问了ip-CSDN博客</a></p>
@@ -63,25 +54,12 @@
       </tags>
   </entry>
   <entry>
-    <title>对主题的修改</title>
-    <url>/posts/20220411003100-13311.html</url>
-    <content><![CDATA[<blockquote>
-<p>Typecho迁移Hexo</p>
-</blockquote>
-<p><strong>总结一下对主题都进行了什么修改操作</strong></p>
-<p>1.删除了首页上面网站title的同步php代码 直接自己加入在a标签里加了名字</p>
-<p>2.首页上面的头像 自己制作了一下透明头像(这样是为了暗黑模式打开的时候不显示成一个□出现 我确实不太喜欢看那个框 整个感让我觉得变扭)</p>
-<p>3.文章里增加了统计文章字数，自己写了那段最后更新时间那里的css插入里面(加入了同步最后更新时间功能)，底部加了段版权声明文字。文章发表时间本来是只有显示年月日改成显示到秒。</p>
-<p>4.砍掉了首页上侧边栏的最近回复，增加了标签云。</p>
-<p>5.底部加上了统计网站运行天数，访客总量和文章总数。</p>
-<p><em>以上都是直接修改了源码</em></p>
-<p>6.增加了文章置顶插件</p>
-<p>7.后台markdown编辑器插件</p>
-<p>8.增加了评论微信提醒插件</p>
-<p>9.图片水印插件(还没用过 效果未知)</p>
+    <title>Start</title>
+    <url>/posts/20240407223330-42474.html</url>
+    <content><![CDATA[<p>初步完成！</p>
 ]]></content>
       <tags>
-        <tag>Typecho</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -137,6 +115,28 @@
       </tags>
   </entry>
   <entry>
+    <title>对主题的修改</title>
+    <url>/posts/20220411003100-13311.html</url>
+    <content><![CDATA[<blockquote>
+<p>Typecho迁移Hexo</p>
+</blockquote>
+<p><strong>总结一下对主题都进行了什么修改操作</strong></p>
+<p>1.删除了首页上面网站title的同步php代码 直接自己加入在a标签里加了名字</p>
+<p>2.首页上面的头像 自己制作了一下透明头像(这样是为了暗黑模式打开的时候不显示成一个□出现 我确实不太喜欢看那个框 整个感让我觉得变扭)</p>
+<p>3.文章里增加了统计文章字数，自己写了那段最后更新时间那里的css插入里面(加入了同步最后更新时间功能)，底部加了段版权声明文字。文章发表时间本来是只有显示年月日改成显示到秒。</p>
+<p>4.砍掉了首页上侧边栏的最近回复，增加了标签云。</p>
+<p>5.底部加上了统计网站运行天数，访客总量和文章总数。</p>
+<p><em>以上都是直接修改了源码</em></p>
+<p>6.增加了文章置顶插件</p>
+<p>7.后台markdown编辑器插件</p>
+<p>8.增加了评论微信提醒插件</p>
+<p>9.图片水印插件(还没用过 效果未知)</p>
+]]></content>
+      <tags>
+        <tag>Typecho</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>博客搭建基本完成</title>
     <url>/posts/20220408215100-48551.html</url>
     <content><![CDATA[<blockquote>
@@ -158,18 +158,22 @@
   <entry>
     <title>青龙面板安装、拉取JD脚本</title>
     <url>/posts/20220415205400-6693.html</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="9d2ba233609958b91d55412c64eb9935ffbd80b7b7d13ad8f26b262785bf5c84">4630436162ade97ba2718b7d0c4b3b63d28f4f8957eafc94ae2cbc2b30196447be0c6f5bb5e0db1fb6975c1a5cda920c678f92027436aecc12126c2390184169577b2c8f6ac2e22e64a99b90383f78a774775f166882e74ea86f329b709a22488d2a37b6c4105d328c9814bb32cc4dcdd2a44fa40921a03430c6df516087e765f6ab759038a2a3d5ba1bb8983c9bee419265d31b8075e36440a7d033d994c5819b88b70ca17a4c6887e9b3e66827896a551fed14dcfad034b5aaaef9822bf4111b9a147e408327d43d578b81607eee6b021a298f136859d692a8129c00d82988545452b484b5191a5b9b034b8b7b4e36919f2427215baf7a45a047da027e22360b45eb6aee56f6903deaf15a73eefa61833f9ffcfe57f016665bacf09a998ebd4717949c5cbd9185a3f2d979b305fc7b5fbfac9eb037ebe298faabeeb4378de2ab05e298403edf644509fef9deb28f02bd23f49138d3a91c7e9b7f2811485cbb86bc720702eda3d2a643de8b78bb57f1ddd6f2edc54e4db4cdbbbb3daadb51f37af30590667231328efe42eab8607681c00a76814418f6b5eea0de55267d8188586ad84a49355d89ec7a283ad19203c48015b29e3e7bab9bbd3852b927efd4348b7004bc5d275788e019232e01284375b9d407dbae7d183ac26d331e731dbc98ed06d30caf5a4242d4c258dbca192506423004f5e3e31ea23d8986351c8ae1d9cefa28d062b1b9ec87ee4d2763f8a73446c8c9d248bd144ae73545616734cc14516f5b8ceb4f65cef6e513e60952c2ceb3422c1fe38622b4c9370e5594cf4507fc455347600a703c1966457ba930520d65c3a4f3f1a8a271d5476761a5c1c889f662d08132be135c8a4d252cedb0060791fa38c6ea8fefb44e8a6163e4e72c8d6595d6b48a17b0b6c64ddb7743014bccb2f7331ea9170ff6f7d1065049e8311a699b913f304d4b38389ceba9d705c68f02019124ac48494613f0d53afa7ec8367c298de1b2290738ef3e3b599d89dddb7c99771825ac742558e34992fd6f3fc89254c1dc4d77254b9c95058a06ed5411ce97647a387450d34aab92b08f10fa107528a3e95d290d9c54b59e8aa8515d992109b7767ce861a8f5742a97ed605a50cc410d4bd3f8228592aef951f5da5ce698daaf67772906b0d3a41d6b4572183f099921dae24d163daed26fe098d606ab5763d52b49bd687fdfdaeb0477dc0e29ee3622190935b4cfff74fcf91528719ce8a14e0822a8bb10915e949c8b98b9c1a8011a69bf6ff8abbb55ce3346fbac5acbed46b2ae1cb0846d266f0c24f2000915d1b0afa70cb9d152b7920383c43e5cb86acb79c5f9e5d38a48b1e7c29cb9116a4aa262b9a2df58eeb6aa40dad035412d380ac6b2f02ec4e5810169c9a157bb83611313d7f6a1e3927814c27c45bcd9ab98c49b1d83786976324fb68abc169d22358f63da63263e8644e169466751e069be7af174c8b1e14edd15077e5ad99a83bef42ff5602cbf90abff071d51cd2aaa38c2b3bea161094ea4582992b172ec6122468e672eb6c868b4ad5ce2435757cf58c0e2827b516586c00bfdea278745fc5226de894cb2cacee48e34f37336fd0d6d61a5da5c7841ac892282f00578a3c6aacca4d1fb665bf73d5341d7b1a2dd60e89792e4dcb526562c78cddfc6003b7ee2ebdd2148d5b8353b2d28bfdbc586698cfb3ca52e954e9233a515c52d92b191d5b3a562e2167cdff7d99ada6dc4521967435cf947068bbca7de4d64d68864043dc727891dc6ff2caf09cc559a001d12ec2080ba315870a2002b389ea8bf238712f9042bbbc70fb6e28a088988f72aa6c62455e6acba6e930a257b528b1769bd8f7ba81d172ff5345fcbd62f60ecb163654a28c92b598fad01cd42949c18b6e302a47fd3861e8709162eceb64acad21140e292656320228a98ad47f09b1bb38f157e2729ca3eed75dc9381c3b86d42a25d1e63f8d068d2e2e3cdfc7df4f36ffcbf5bd286e2ad756c20af87b0b2b5507e430530612a974c6760f2b69be7e66d184eecaf31bf923825302ee1c5b101b3838cee939873e0d65892b3719a4c08a71910222429d0d77a5cf66c9714b110a4045ddc7267e9173799283353c3043e29d6db328d00ef1ddd3ea9498d8ecb752e83990da176937ab9afbf33b6e0abb0e9c8c714f100cbcff9926d49cc2b6065d39aca8832540ef03a56d9418dcbc1c4f64a82208023cd1f3ef67ac04a5158181611959e60f836700d5cc42626f55e469189f30f847ce895e669b28e0a9ef910b41b66ffa3f12c78e78f5b2637c5035f69b468feac3e475af9742e41cf8fa75c4bd5a970fd3505a1e45bb22d4bec3cadc32786acd5bc6865e47da610d8e0c20ae73dfe76dff340dacf048823185222f19b2aba5d9bb8c4d5180260fd8f69c033ddabebc1821056481c95539baff5b20345081984ee1ce21265e1a79bcf855f9f61dc65d14c09273553dcc4c57863c32dd5c7fe389f6e071a2089b3ab7182fa4de34392caf0426c889f85ba76fc26eb85b3e0199d99323dcf503771e01c3c43f4926044e1a233eb54ad9def38ce021ac53fa1c77b01c74caa9f4d4c68e8477e21b94217f0eede85c1d3cd57308acfdc1f4cc6be7bbd8aeb35a51feca4c0487c0320c27c000d3bfe6ad6ffe492ab7775fa125f885fb83eed5bc2ceba882dd976f89e1f6683e2b0495f64543f2859e89170a6b49d1f75aaefaad808d145296a23842cf96b4eb8ac81141432eed246ac2af1c6cecdd79eec5066c57f92e52d6d0fa161b4dd1f523dba5f8ff6059b577cee5a54b533265fdad0b591bcac565fa06942ccdd7748e28778973e22dcdd136d7008c311934960c35088abfedea5d448f5cb3896afef9c7a81115305f4e98f30c2e9afad35654a7423a38016bdd360f7b0f365f3d34637af21e237c6860c5ddf749f2a09b51a25b5b62697bdad64609e3f50992c3fef317be647b4d5062d62421c0eae249955caa4b302a5faec54f5d5d0808f4900ea9750707b47d1194b2d0897234b10c69dd42577eb0f532434ed1a6f2c563015bb579a9da8eeeaa79a334f4766a1a638d4f0b27f8b6dccedb0e2652b8ca4231ab1602ffa7fc1c0f9d2b5d49b844ec323b450c2c312b009f1f8b770395822df2fa8fda535f4b308ba2209546287c55a125b91022dff08e0ba7ec9b9059aa3e6e626d7a69dafa9301fb204b76dfffd38e73caa3d24bd430607b229f8ddebf3744af24f0db0a2095acae14453c1b3f7c68d6893a41624d847f71bd3ae851810ba1871c803e3f698e921f761016c1a3faac1f666dfb3dce659ec40bd755c317a2d9a395ebddd53b98c3cdc165eebc1fa44986a971d12471f580b67c7ff37311e834e6f8220a0bee95ebcc1b53c3201537ae237d81be48540c7a0585cb1d0a1f779296c2876bdc704f069ded9d4d38e6eed3422a1babb8688448ee030bf500ad275a8764f2c7b9272fc93772ff73b6d4b2704f1626dce0db466daf524cb248f5f6428d1b28d78e5bc5c8d771c1349162b87a461552c32ed742c49947d0889ffab1804e1bb3a2788da5bedc853616e6e646281b57f2c81e92c7f3b09090f5a83b88b6c092d64889b414d2c5c9efccb2233d118cf3604053c6cf0a6a970b23c14c18bb98ba2632d6ddffcffbc3674f294cecf95a7d4c2eca7c8e6ae832105af63d3de04dbbc7263d1cbace621f7b97882664b80b172afdc4fb1539a50b0ded0d3cf1ea07e88f38aa27594f69cba5670674cc72dea4bfacd1e41c107760686e2305a4aa8c86cee349c758c13670c9fa67148efbebc6d849a180f227533f2608271ded4bb832814302fa9ece6c75ed483f26a7ff5aad02d08323b28f0155210d542df5469b0eedf161c81d5189e0b33999496c810fae46508666f1d92e342135ffce1c8d65edc8b4e8909dcb71259538b90bd618489a1b079bba65c156d0425d9c7e20c2bba41601443472a8ad94f2c94869fc4b3da90ee9679e5e2e6c77d3af6862467407008b5b3bb48a2a4bfe1620307418902380be08a4911383631e7c2dd40b6449cf1c3f45ac9d6df424fb378f786045ff35f7345196dca50b6df4e125edd530e84b06da2e2da5a2837a5aeaddba643ed2bf4b69c31b579a53c5dac240f3347c5faa357b1cdde0d5477ab00efa352acf6fde7a1f13f3a4babc218b7fc5e57ba195bfd256c1ce54e1c07113fdb3f2ddab5ecbb173142d188eb8e73dbfe1edbcc48f911ea578b1acb28e84236d00e6bc965ad16c6858773064fad36c176202ef26b6605c564dafb50b81917a34e9fec8e6b8eadd06895db5d4b5b6015eddd0de1290b4dd18b3207c35f88a6ba09ab2e2f8b342b2deae4d5b80fa8bed3af041c158706691797c0d9943ab2a1972490b499a5904168c5f0121ecfb94695f19c0752d884512950053b4b7142486755db31dbd5e631067444b5124bacd3e3efbba675c6e627314b02cefaa258d32de5744affe30f586e4fbba3cd7651ab41c4a5314b309eba6e21958ca427dfb63d73c94bb6f20bada51176bb6d7bab6de86710a58e39721bc94fe8ef1e869de423d7481129bef1ddacc5e4f3e7c74250fe4c5b729b95fd99e590c8ab011f6f1fb8551e4d6568d38ad8765d14ebd9123d38c0501b4d690f9d254ea6269161526b47d12e0731d96143e4a25c56a4974c3dfcb9ef96701b8a5c21bc121a05565f1cadb7f3d1e3768c44b903e15212b7529f99fbcb46697f0590f39648463c287f4e91dbe4934ea2c46d12b2fbb01efc2266bb3968945085ed78b45db2563cbbeb0e21bf182f908a2ea4405eb3ce9a60c56fd2347b0897615136e54a3778c0cee766c821d4fccb7efd364124e0b3b6274bd6c281d84bf7996e871521f1ac6024bff0aa4390ad9e79766c908d53f43683b06044d70be967186a3656ac5919b5b7852aff5df8a9b60d8a87c1ad947b5ebaca6116a41d65023ddd7f319e0d1c6ecae7de49aef972abd46a56283f5ae128658c32bbc943dcb48b1134579a88d21d4b4721e86b46a150a973b8edf58a1895125bf965c355d2b6eedc0c2c85dd257dc5d8fb33b6752eccb20ed59b3aa64d176b8a3965621afd3eeb8eb5d5308693bcee6de6a165e7203c905d44389c2efddd48ac3c9429b6a1ecb39a5f5510b634c419909a448b6ef572dc1b253ae122f4967d404a8d51b8a7e5a5cd48b8e0ce21efedf9c3512b0ea34795ef57e1e192f250c0b73cb295b2c7cb</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <content><![CDATA[<blockquote>
+<p>Typecho迁移Hexo</p>
+</blockquote>
+<p>简单的记录一下今天挂JD脚本的操作过程</p>
+<hr>
+<p><font color="grey">通过挂脚本让脚本自行完成京东活动里需要签到、浇灌一系列操作（搭建在云服务器上 已经安装Docker镜像）</font></p>
+<h3 id="青龙面板安装"><a href="#青龙面板安装" class="headerlink" title="青龙面板安装"></a>青龙面板安装</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker run -dit \</span><br><span class="line">  --name QL \</span><br><span class="line">  --hostname QL \</span><br><span class="line">  --restart always \</span><br><span class="line">  -p 5700:5700 \</span><br><span class="line">  -v $PWD/QL/config:/ql/config \</span><br><span class="line">  -v $PWD/QL/log:/ql/log \</span><br><span class="line">  -v $PWD/QL/db:/ql/db \</span><br><span class="line">  -v $PWD/QL/scripts:/ql/scripts \</span><br><span class="line">  -v $PWD/QL/jbot:/ql/jbot \</span><br><span class="line">  whyour/qinglong:latest</span><br></pre></td></tr></table></figure>
+<p>端口号5700可以修改成别的 建议修改</p>
+<p><img src="https://www.chein.cc/usr/uploads/2022/04/1508520666.png" alt="青龙面板安装成功"></p>
+<p><strong>登录青龙面板</strong>：在浏览器里输入你的服务器ip地址加上设置的端口号 例192.0.0.0:5700</p>
+<p><strong>1.新建任务</strong> </p>
+<p>登录后在定时任务里 <strong>新建任务</strong> 确定完成<br><img src="https://www.chein.cc/usr/uploads/2022/04/883195322.png" alt="新建任务"><br><font color="grey">拉库命令可以去网上找 能不能用我就不知道了 我目前拉取的这个是可以的</font><br><code> &quot;jd_|jx_|getJDCookie&quot; &quot;backUp|icon&quot; &quot;^jd[^_]|USER|sendNotify|sign_graphics_validate|JDJR&quot;&quot;main&quot;</code><br>可以参考这篇文里的库地址–&gt;<a href="https://blog.csdn.net/u012134073/article/details/120220361" title="青龙面板拉取常用脚本(JD签到) 目前在维护的脚本更新">青龙面板拉取常用脚本(JD签到) 目前在维护的脚本更新</a></p>
+<p><strong>2.新建变量</strong></p>
+<p><strong>环境变量</strong>里添加京东账号的cookie<font color="grey">（怎么获取cookie网上一搜就有 我就不写了 好吧其实是懒得写了 可以参考<a href="https://www.zymys.cn/index.php/archives/128/" title="获取cookie方法">获取cookie方法</a>）</font><br><strong>名称一定要填</strong><code>JD_COOKIE</code><br><strong>值：</strong>填写cookie里的<code>pt_key</code>和<code>pt_pin</code><br><font color="grey">两个后面加上分号** ; **</font><br><img src="https://www.chein.cc/usr/uploads/2022/04/1022752254.png" alt="新建环境变量"><br>添加完毕后 第一次先手动运行脚本 如图<br><img src="https://www.chein.cc/usr/uploads/2022/04/2656341579.png" alt="运行脚本"></p>
+<p><font color="grey">然后就可以登录京东看看京豆什么的 已经自动在刷（<del>脚本刷什么内容可以自己看脚本文件</del> 活动都先自己用手机先点击进入一遍 例：京喜农场活动 自己可以点进去选择兑换什么然后后台会自动浇灌 等一段时间后就能兑换领取）</font></p>
+]]></content>
       <tags>
         <tag>Typecho</tag>
       </tags>
