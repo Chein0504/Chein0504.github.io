@@ -3,9 +3,9 @@
   <entry>
     <title>结束修改next主题</title>
     <url>/posts/20240410220121-51027.html</url>
-    <content><![CDATA[<p>把next从5升级到了8 然后太难弄了 一堆要重新弄（属实是折腾不搞了）</p>
-<p>把版本换回来好像原来的又出了一点问题 真服了（字体改不成中文去了…)</p>
-<p>随便测试一下图片能不能正常显示（别又被我折腾没了）</p>
+    <content><![CDATA[<p>把next版本从5.x升到了8.x 要重新修改一系列配置太难弄了 一堆要重新弄（属实是折腾）</p>
+<p>所以决定把版本换回来 但好像原来的又出了一点问题 真服了（已成功改回来)</p>
+<p>再测试一下图片能不能正常显示（别又被我折腾没了）</p>
 <p><img src="/posts/20240410220121-51027/image-20240410220340359.png" alt="image-20240410220340359"></p>
 <blockquote>
 <p>测试完毕 中文也修改回来了 代码块复制也成功实现 结束！</p>
@@ -74,7 +74,13 @@
 <img src="/posts/20240409220215-3086/image-20240409224333023.png" alt="image-20240409224333023" style="zoom:50%;">
 
 <p>按题目要求把字段拖入区域中</p>
-<img src="/posts/20240409220215-3086/image-20240409224620468.png" alt="image-20240409224620468" style="zoom:50%;">]]></content>
+<img src="/posts/20240409220215-3086/image-20240409224620468.png" alt="image-20240409224620468" style="zoom:50%;">
+
+<h3 id="行不能重复输入"><a href="#行不能重复输入" class="headerlink" title="行不能重复输入"></a>行不能重复输入</h3><img src="/posts/20240409220215-3086/image-20240417213142440.png" alt="image-20240417213142440" style="zoom:50%;">
+
+<img src="/posts/20240409220215-3086/image-20240417213245680.png" alt="image-20240417213245680" style="zoom:50%;">
+
+<h3 id="数据库函数"><a href="#数据库函数" class="headerlink" title="数据库函数"></a>数据库函数</h3><img src="/posts/20240409220215-3086/image-20240417213652916.png" alt="image-20240417213652916" style="zoom:50%;">]]></content>
       <tags>
         <tag>Excel</tag>
       </tags>
@@ -82,7 +88,7 @@
   <entry>
     <title>Hexo搭建/优化相关</title>
     <url>/posts/20240409140427-12175.html</url>
-    <content><![CDATA[<p>[使用 Hexo+GitHub 搭建个人免费博客教程（小白向） - 知乎 (zhihu.com)](使用 Hexo+GitHub 搭建个人免费博客教程（小白向） )</p>
+    <content><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/60578464">使用 Hexo+GitHub 搭建个人免费博客教程（小白向） - 知乎 (zhihu.com)</a></p>
 <p><a href="https://blog.csdn.net/as480133937/article/details/100138838/?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-4--blog-86661502.235%5Ev43%5Epc_blog_bottom_relevance_base1&spm=1001.2101.3001.4242.3&utm_relevant_index=7">Hexo-Next 主题博客个性化配置超详细，超全面(两万字)_hexo next 记录访问了ip-CSDN博客</a></p>
 <p><a href="https://zhuanlan.zhihu.com/p/500171014">NexT 主题行内代码背景颜色设置 - 知乎 (zhihu.com)</a></p>
 <p><a href="https://blog.csdn.net/CodeJoker_7/article/details/123235303">Hexo添加复制代码块功能_hexo生成的文章代码段添加复制按钮-CSDN博客</a></p>
@@ -132,7 +138,7 @@
 </blockquote>
 <p><strong>总结一下对主题都进行了什么修改操作</strong></p>
 <p>1.删除了首页上面网站title的同步php代码 直接自己加入在a标签里加了名字</p>
-<p>2.首页上面的头像 自己制作了一下透明头像(这样是为了暗黑模式打开的时候不显示成一个□出现 我确实不太喜欢看那个框 整个感让我觉得变扭)</p>
+<p>2.首页上面的头像 自己制作了一下透明头像(这样是为了暗黑模式打开的时候不显示成一个□出现 我确实不太喜欢看那个框 觉得变扭)</p>
 <p>3.文章里增加了统计文章字数，自己写了那段最后更新时间那里的css插入里面(加入了同步最后更新时间功能)，底部加了段版权声明文字。文章发表时间本来是只有显示年月日改成显示到秒。</p>
 <p>4.砍掉了首页上侧边栏的最近回复，增加了标签云。</p>
 <p>5.底部加上了统计网站运行天数，访客总量和文章总数。</p>
@@ -152,7 +158,7 @@
     <content><![CDATA[<blockquote>
 <p>Typecho迁移Hexo</p>
 </blockquote>
-<p><font color="grey">顶部的图片被我修改成了可以点击跳转到每日60s（由于未学习过php 所以源码其实我是看不太明白的）<br>直接在源码上加了a标签进行跳转（在header.php里修改）<br>导致新建独立页面出现了问题</font><img src="https://zymys-1308174541.cos.ap-shanghai.myqcloud.com/2022/04/10/cba1d712a2e0e.png" alt="新建独立页面问题" title="新建独立页面问题"><br>这bug真没法解决 这新建独立页面的php里就算删掉header.php也会存在这个问题 那一块都能进行点击然后跳转到每日60s（除非我把顶部图片每日60s链接直接去掉换回单纯的图片显示）<br><br><font color="grey">哎 我这强迫症 我还是不能忍受那个bug存在 所以还是换回图片吧&#x3D; &#x3D;</font></p>
+<p><font color="grey">顶部的图片被我修改成了可以点击跳转到每日60s（由于未学习过php 所以源码其实我是看不太明白的）<br>直接在源码上加了a标签进行跳转（在header.php里修改）<br>导致新建独立页面出现了问题</font><img src="https://zymys-1308174541.cos.ap-shanghai.myqcloud.com/2022/04/10/cba1d712a2e0e.png" alt="新建独立页面问题" title="新建独立页面问题"><br>这bug真没法解决 这新建独立页面的php里就算删掉header.php也会存在这个问题 那一块都能进行点击然后跳转到每日60s（除非我把顶部图片每日60s链接直接去掉换回单纯的图片显示）<br><br><font color="grey">哎 我这强迫症 还是不能忍受那个bug存在 所以还是换回图片吧&#x3D; &#x3D;</font></p>
 <hr>
 <p><font color="grey">昨天看的时候也发现默认前面多了个小点可以点击跳转到每日60s（这个是因为继承了父级的css样式导致）</font><br><strong>解决方法：</strong>取消从父级元素继承下来的CSS样式 <code>all:initial;</code></p>
 <hr>
@@ -174,9 +180,9 @@
 <hr>
 <p>不改了不改了真的不改了 就这样！！！！！</p>
 <hr>
-<p>突然觉得其实可以砍掉首页右边栏的最近回复显示，因为在手机上划拉到底的话就太长了(让我感觉登录到后天码字多了一点小小的路程）<br><br>这就是为了我碎碎念or记录什么的留存的网站，手机上记录一下想法啊想说的也会方便点。<br><br>忍不住想絮絮叨叨</p>
+<p>突然觉得其实可以砍掉首页右边栏的最近回复显示，因为在手机上划拉到底的话就太长了(让我感觉登录到后台码字多了一点小小的路程）<br><br>这就是为了我碎碎念or记录什么的留存的网站，<del>手机上记录一下也会方便点。</del><br><br>忍不住想絮絮叨叨</p>
 <hr>
-<p>把首页最新回复给砍掉了 看着简洁多了 然后加了个标签云<br><br>顶部图片做了个链接到每日60s 但是有个问题就是图片加载时间有点长 加载的很慢这东西 在电脑上还好手机上我等了一会就没耐心了这玩意没出来…</p>
+<p>把首页最新回复给砍掉了 看着简洁多了 然后加了个标签云<br><br>顶部图片做了个链接到每日60s 但有个问题就是图片加载时间有点长 加载的很慢这东西 在电脑上还好手机上我等了一会就没耐心了这玩意没出来…</p>
 <hr>
 <p>是真的好累哎 今天基本一直坐在电脑前修改主题 腰酸背痛脖子疼齐全了</p>
 ]]></content>
@@ -193,10 +199,10 @@
 <p><font color="grey">从3.24购买服务器开始到今天4.8历时十五天的时间断断续续的折腾出了个还看得过去的个人博客来写东西。<br>用现成的系统主题来搭个博还是很简单的，只要不怕折腾就行（也没啥东西需要自己来修改的）</font></p>
 <h2 id="简单记录一下过程"><a href="#简单记录一下过程" class="headerlink" title="简单记录一下过程"></a>简单记录一下过程</h2><p><strong><foot style="background:#eee"> 1.购买服务器</foot></strong><br>在腾讯云购买的轻量应用型服务器</p>
 <p><strong><foot style="background:#eee">2.购买域名</foot></strong><br>等待信息模板实名认证通过后在阿里云购买的.cc域名</p>
-<p><strong><foot style="background:#eee">3.域名备案</foot></strong><br>一开始在阿里云备案 然后解析到服务器上发现提示未备案用不了 然后询问才知道现在得服务器在哪域名备案就要在哪 就又在腾讯云进行了接入备案</p>
+<p><strong><foot style="background:#eee">3.域名备案</foot></strong><br>一开始在阿里云备案 然后解析到服务器上发现提示未备案用不了 询问后才知道现在得服务器在哪域名备案就要在哪 就又在腾讯云进行了接入备案</p>
 <p><strong><foot style="background:#eee">4.网站公安联网备案</foot></strong><br>还在进行 还没弄完</p>
 <p><strong><foot style="background:#eee">5.申请ssl证书</foot></strong><br>今天在腾讯云上申请了个免费ssl证书加上了</p>
-<p><strong><foot style="background:#eee">6.宝塔面板+Typecho搭建网站</foot></strong><br>没啥好说的网上一堆教程，多扒拉扒拉操作就行。<br>在用Typecho之前我还用了一下WordPress，但是我还是投入了Typecho的怀抱。WordPress的后台什么的我个人不太喜欢，而且不知道为啥刚开始弄的时候感觉WordPress好复杂没看懂(然后就懒得折腾后面等域名备案好了就用Typecho来搭建了）<br>刚好那天aj和我说Typecho隔了那么久时间更新了(那天是4.1)</p>
+<p><strong><foot style="background:#eee">6.宝塔面板+Typecho搭建网站</foot></strong><br>没啥好说的网上一堆教程，多扒拉扒拉操作就行。<br>在用Typecho之前还用了一下WordPress，但还是投入了Typecho的怀抱。WordPress的后台什么的我个人不太喜欢，而且不知道为啥刚开始弄的时候感觉WordPress好复杂没看懂(然后就懒得折腾后面等域名备案好了就用Typecho来搭建了）<br>刚好那天aj和我说Typecho隔了那么久时间更新了(那天是4.1)</p>
 <h3 id="对主题的修改"><a href="#对主题的修改" class="headerlink" title="对主题的修改"></a>对主题的修改</h3><p><img src="https://zymys-1308174541.cos.ap-shanghai.myqcloud.com/2022/04/09/2d4b7024e0c3f.png" alt="主题截图" title="主题截图"><br><font color="grey">对该主题进行了一些小小的修改</font><br><foot style="background:#eee">1.底部加了个网站运行时间显示</foot><br><foot style="background:#eee">2.修改了浏览器的标签页显示的网站标志图标</foot><br><foot style="background:#eee">3.头像加载不出来 将获取Gravatar头像地址改为国内镜像地址</foot><br><foot style="background:#eee">4.添加了评论微信通知插件和markdown编辑器插件（现在使用的这个插件它的图标都是□□ 加载不出来看的很难受）以及图片水印插件（图片水印插件还未使用过不知道效果什么样)</foot></p>
 ]]></content>
       <tags>
